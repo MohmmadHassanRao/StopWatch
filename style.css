@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "digital-7";
+  src: url(./font/digital-7.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #3e3636;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  margin-top: 60px;
+  border: 5px solid #d72323;
+}
+.heading {
+  font-family: "digital-7";
+  color: #d72323;
+  font-size: 2em;
+  text-align: center;
+}
+.stopwatch {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.stopwatch > h2 {
+  padding: 6px;
+  width: 100px;
+  text-align: center;
+  font-family: digital-7;
+  font-size: 4em;
+  color: #d72323;
+}
+.stopwatchBtns > button {
+  padding: 5px 23px;
+  margin: 10px 5px;
+  background-color: #d72323;
+  color: #3e3636;
+  border: none;
+  border-radius: 10px;
+  font-family: digital-7;
+  font-weight: bold;
+}
